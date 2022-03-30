@@ -1,0 +1,51 @@
+id,nombre,email,genero,deuda,fecha,ciudad
+1,Veriee,vvasilkov0@qq.com,Female,$374324.12,09/04/2020,Besançon
+2,Lizbeth,locklin1@tiny.cc,Female,$423222.26,14/09/2019,Jawand
+3,Tymon,thillum2@diigo.com,Male,$591323.65,08/01/2020,Rîbniţa
+4,Teddie,tschofield3@ehow.com,Male,$279894.15,12/05/2020,Tlogoagung
+5,Dom,dantonin4@squarespace.com,Male,$884488.11,04/03/2020,Tonjongsari
+6,Armstrong,acreegan5@reverbnation.com,Male,$136930.77,07/08/2020,Xianning
+7,Micky,mmaccall6@elpais.com,Female,$925498.10,16/08/2019,Dongping
+8,Mickie,mprosser7@alexa.com,Male,$634854.83,22/05/2020,Perm
+9,Nadya,ngerrett8@over-blog.com,Female,$682885.94,26/04/2020,Champaign
+10,Donni,dboots9@digg.com,Female,$748880.01,02/04/2020,Normanton
+11,Dalli,dmorecombea@wordpress.com,Male,$490253.97,26/02/2020,Serra
+12,Fionna,fshanksterb@mashable.com,Female,$953863.00,29/01/2020,Ccuntuma
+13,Melesa,mmacinnesc@si.edu,Female,$473316.46,21/07/2020,Shihua
+14,Orelle,oshobbrookd@t.co,Female,$193841.90,21/11/2019,Huangtan
+15,Gayelord,ghasloche@gmpg.org,Male,$325836.11,20/06/2020,Sehwān
+16,Florencia,fforstf@addthis.com,Female,$632385.67,17/05/2020,Buenavista
+17,Pam,pbelfeltg@lulu.com,Female,$137358.07,30/11/2019,Maclear
+18,Ollie,okubalekh@feedburner.com,Female,$196640.52,20/05/2020,Kebon
+19,Wyn,wlingeri@dropbox.com,Male,$558827.34,10/05/2020,Gimry
+20,Vachel,vburbankj@topsy.com,Male,$140948.04,25/06/2020,Bungoma
+21,Carrol,ceberleink@ehow.com,Male,$236236.28,04/04/2020,Fatikchari
+22,Ania,atrigwelll@ft.com,Female,$926625.25,08/06/2020,Cibunut
+23,Merell,mkarpfm@google.ca,Male,$476027.49,23/07/2020,Oklahoma City
+24,Matt,mellerkern@nymag.com,Male,$650797.70,17/08/2020,Nakhon Ratchasima
+25,Kareem,khephero@furl.net,Male,$350797.69,22/09/2019,Koper
+26,Rosalyn,rmansfordp@liveinternet.ru,Female,$210378.27,04/02/2020,Tongqian
+27,Reider,rbyllamq@mit.edu,Male,$35384.37,06/06/2020,New York City
+28,Parke,plyonsr@stanford.edu,Male,$627124.52,14/09/2019,Zimovniki
+29,Rayshell,rearthfields@bbc.co.uk,Female,$917068.73,05/02/2020,Matanza
+30,Etty,elawteyt@latimes.com,Female,$443473.00,22/02/2020,Gus’-Zheleznyy
+31,Merralee,mmilanu@purevolume.com,Female,$736731.84,25/11/2019,Salamanca
+32,Diana,dszymanskiv@psu.edu,Female,$503491.50,05/07/2020,Fonte Boa da Brincosa
+33,Lethia,lbondyw@stanford.edu,Female,$48076.57,19/09/2019,Épinal
+34,Franciska,fbancroftx@ed.gov,Female,$518690.36,29/04/2020,Labuhanjambu
+35,Zelda,zpavelkay@aol.com,Female,$438617.76,27/05/2020,Melrose
+36,Ame,alindstromz@ebay.com,Female,$920758.95,07/08/2019,Tupaciguara
+37,Emmit,ecaudle10@over-blog.com,Male,$847389.65,02/07/2020,Shuidong
+38,Goddart,gthal11@biglobe.ne.jp,Male,$500580.27,18/08/2020,Baini
+39,Sigismondo,sdoige12@rediff.com,Male,$793191.23,03/03/2020,Saladas
+40,Kinna,kroyston13@barnesandnoble.com,Female,$124102.58,05/06/2020,Koten
+41,Locke,lcrossgrove14@multiply.com,Male,$501893.07,28/01/2020,Beishan
+42,Ashley,aflippini15@odnoklassniki.ru,Male,$855024.72,26/09/2019,Jiuchi
+43,Jammal,jfraschini16@jiathis.com,Male,$17564.78,14/10/2019,Puerto Padre
+44,Peterus,pswadon17@ucoz.ru,Male,$95381.94,24/08/2019,Ukmerge
+45,Brannon,bfulbrook18@livejournal.com,Male,$940784.51,18/08/2019,Casa Nova
+46,Mart,mconers19@skyrock.com,Male,$848251.34,06/01/2020,Nikita
+47,Stacie,srobichon1a@si.edu,Female,$107463.20,07/12/2019,Yangmiao
+48,Frances,fgoulter1b@princeton.edu,Female,$420175.46,06/03/2020,Sundsvall
+49,Stephani,sfaircliffe1c@parallels.com,Female,$401979.29,16/08/2020,Vysotsk
+50,Niccolo,nrylstone1d@discovery.com,Male,$97501.43,05/09/2019,San Miguel

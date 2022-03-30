@@ -1,0 +1,11 @@
+mueble,tipo,precio,peso,personas,respaldo
+mesa,cuadrada,7882,,8, 
+mesa,rectangular,13476,,6, 
+banqueta,fija,4692,,,no
+banqueta,fija,11809,,,si
+banqueta,regulable,15635,,,si
+silla,baja,4500,80,,
+silla,alta,11956,120,,
+mesa,cuadrada,1667,,5,
+silla,alta,13274,95,, 
+banqueta,fija,16265,,,si

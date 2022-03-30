@@ -1,0 +1,9 @@
+nombre, mail, saldo
+Lizbeth, locklin1@tiny.cc, 423222
+Micky, mmaccall6@elpais.com, 925498
+Kareem, khephero@furl.net, 350797
+Parke, plyonsr@stanford.edu, 627124
+Merralee, mmilanu@purevolume.com, 736731
+Ame, alindstromz@ebay.com, 920758
+Ashley, aflippini15@odnoklassniki.ru, 855024
+Brannon, bfulbrook18@livejournal.com, 940784
