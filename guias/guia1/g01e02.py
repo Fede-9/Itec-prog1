@@ -4,7 +4,7 @@ nota1 = int(input("digame su primer nota: "))
 nota2 = int(input("digame su segunda nota: "))
 nota3 = int(input("digame su tercer nota: "))
 promedio = (nota1 + nota2 + nota3) / 3
-print("promedio: ", promedio)
+print(f'Promedio: {promedio}')
 
 
 suma = 0

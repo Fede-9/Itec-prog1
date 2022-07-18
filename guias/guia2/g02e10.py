@@ -21,5 +21,5 @@ for x in range(len(salario1)):
         menos_gana = nombre1[x]
 
 
-print("el que menos gana es ", menos_gana)
-print("su sueldo es de: ", cont)
+print(f"El que menos gana es: {menos_gana} ")
+print(f"Su sueldo es de: {cont} ")

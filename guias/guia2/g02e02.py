@@ -6,7 +6,7 @@ while dato_1 == "si":
     dato_2 = int(input("Ingrese un numero entero: "))
     if dato_2 >= 0:
         print("El numero es positivo")  
-    elif dato_2 < 0:
+    else:
         print("El numero es negativo")
     dato_1 = input("Desea ingresar otro dato?: ")
 
