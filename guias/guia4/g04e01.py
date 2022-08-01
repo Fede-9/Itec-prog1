@@ -17,3 +17,4 @@ for i in range(len(b)):
         x += b[i]
 
 print(x)
+

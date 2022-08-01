@@ -3,11 +3,11 @@
 # mayorQue.
 
 def promedioNum(lista):
-    resultado = 0
+    total = 0
     prom = 0
     for i in range(len(lista)):
-        resultado += lista[i]
-    prom = resultado / len(lista)
+        total += lista[i]
+    prom = total / len(lista)
     return prom
 
 def mayorQue(prom, lista):

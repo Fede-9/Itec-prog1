@@ -9,13 +9,13 @@ class Telefono():
 
     def costoAnual(self):
         total = self.costo * 12
-        return total
+        return f'Su costo anual es de: {total}'
 
 if __name__ == '__main__':
     cliente1 = Telefono('samsung','motoG', 950)
-    print('Su costo anual es de: ', cliente1.costoAnual())
+    print(cliente1.costoAnual())
     cliente2 = Telefono('samsung','motoG', 500)
-    print('Su costo anual es de: ', cliente2.costoAnual())
+    print(cliente2.costoAnual())
 
 
     print(cliente1.marca)

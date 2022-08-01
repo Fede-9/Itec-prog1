@@ -45,9 +45,9 @@
 #lista[1] = 100
 #print(lista)
 
-#lista = [23,58,98]                   #CON EL INSERT AREGO ELEMENTOS A LA LISTA EN LA UBICACION QUE YO QUIERO
-#lista.insert(1,100)
-#print(lista)
+# lista = [23,58,98]                   #CON EL INSERT AREGO ELEMENTOS A LA LISTA EN LA UBICACION QUE YO QUIERO
+# lista.insert(1,100)
+# print(lista)
 
 
 #lista = [23,58,98]                   

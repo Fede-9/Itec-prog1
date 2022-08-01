@@ -5,3 +5,5 @@ for x in range(1,8):
     numero = int(input("ingrese un numero entero: "))
     if numero > 0 and numero < 10:
         print("numero de una sola cifra !!")
+    else:
+        print('numero mayor a una cifra !!')

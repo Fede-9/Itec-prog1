@@ -1,5 +1,6 @@
 #Sin el decorador, habríamos de hacerlo de la forma tradicional:
 print('------------------ SIN Y CON EL MODULO DATACLASS -----')
+
 class Deportista():
     def __init__(self, nombre, altura, peso):
         self.nombre = nombre

@@ -5,11 +5,16 @@ gente = {
 }
 
 
+
 for clave in gente.keys():
-    print(clave)
+    print(f'Clave: {clave}')
+
+
 
 for valor in gente.values():
-    print(valor)
+    print(f'Valor: {valor}')
+
+
 
 for clave, valor in gente.items():
     print(clave, '->', valor)

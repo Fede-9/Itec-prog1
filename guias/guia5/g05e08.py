@@ -1,9 +1,11 @@
 # 8. Ingresar nombres , luego buscar un nombre y de encontrarlo decir en qué posición está.
 
+
 def cargarNombres(cant):
     for i in range(cant):
         n = input(f'Ingrese el nombre {i+1}: ')
         nombres.append(n)
+
 
 def buscarNombre(nombre,lista):
     pos = 999

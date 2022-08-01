@@ -11,16 +11,19 @@ suma(5,4)  #Llamar a la funcion en donde 5 y 4 son los argumentos
 
 def sumar(a,b): #Definimos la función sumar
     x = a + b
-    print (("Resultado"), (x))
+    print (f'Resultado de la suma : {x}')
+
 def restar(a,b):#Definimos la función restar
     x = a - b
-    print (("Resultado"), (x))
+    print (f'Resultado de la resta: {x}')
+
 def multiplicar(a,b):#Definimos la función multiplicar
     x = a * b
-    print (("Resultado"), (x))
+    print (f'Resultado de la multiplicacion: {x}')
+
 def dividir(a,b):#Definimos la función dividir
     x = a / b
-    print (("Resultado"), (x))
+    print (f'Resultado de la division: {x}')
 
 #desde aca llamo ala funcion que quiero
 x = int(input('numero: '))

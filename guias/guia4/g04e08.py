@@ -12,3 +12,11 @@ for i in range(len(cadena)):
 
 print(cadena1)
 print('la cantidad de letras es: ', len(cadena1))
+
+
+cont = 0
+for x in cadena:
+    if x != ' ' and x != ',' and x != '.':
+        cont += 1
+
+print(f'Cantidad de letras: {cont}')

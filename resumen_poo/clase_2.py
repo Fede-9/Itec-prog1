@@ -16,3 +16,4 @@ curso1 = Curso('Matematica',5,'Ingenieria civil')
 curso2 = Curso('Lenguaje',4,'Ingenieria industrial')
 print(curso1.nombre)
 print(curso2.profesion)
+

@@ -96,8 +96,9 @@ print('------- FUNCION POP ------------')
 
 d = {"Python": 1991, "C": 1972, "Java": 1996}
 eliminado = d.pop("Python") 
-print(eliminado)  #Al elemento eliminado lo pueddo guardar en una variable.
+print(f'Eliminadooo: {eliminado}')  #Al elemento eliminado lo pueddo guardar en una variable.
 print(d)
+
 
 print('-------- RETORNAR UN PAR CLAVE-VALOR ALEATORIO ---------')
 # Por otro lado, popitem() retorna un par clave-valor de forma aleatoria

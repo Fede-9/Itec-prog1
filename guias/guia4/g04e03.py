@@ -8,3 +8,11 @@ for i in range(len(cadena)):
         cont += 1
 
 print("La cantidad de letras 'i' es de: ",cont) 
+
+
+acum = 0
+for x in cadena:
+    if x == 'o':
+        acum += 1
+
+print(f'Cantidad de letras: {acum}')

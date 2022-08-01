@@ -4,9 +4,9 @@
 print("INGRESAR EN MILIMETROS LA CANTIDAD DE LLUVIA DURANTE LOS DIAS DE LA SEMANA !!")
 total = 0
 no_llovio = 0
-lluvia = 7
-for x in range(lluvia):
-    x = int(input("ingrese la cantidad de lluvia: "))
+lluvia = ['Lunes', 'Martes','Miercoles','Jueves','Viernes','Sabado','Domingo']
+for x in range(len(lluvia)):
+    x = int(input(f"ingrese la cantidad de lluvia del dia {lluvia[x]}:  "))
     if x > 0:
         total += x
     elif x == 0:

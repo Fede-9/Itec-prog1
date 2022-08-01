@@ -2,7 +2,12 @@
 # Los datos se almacenan asociados a una clave unica, tenemos una relacion clave:valor
 
 
-miDiccionario = {'España':'Madrid','Peru':'Lima','Alemania':'Berlin'}
+miDiccionario = {
+    'España':'Madrid',
+    'Peru':'Lima',
+    'Alemania':'Berlin'
+}
+
 print(miDiccionario['Peru']) #accedemos a su valor
 print(miDiccionario)
 
@@ -16,7 +21,12 @@ del miDiccionario['España']  #elimino la clave y el valor.
 print(miDiccionario)
 
 # Diccionario con distintos elementos
-dic2 = {'Cometto':'Federico',25:True,'Sueldo':4000}
+dic2 = {
+    'Cometto':'Federico',
+    25:True,
+    'Sueldo':4000
+}
+
 print(dic2[25])
 
 

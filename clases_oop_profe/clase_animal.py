@@ -12,12 +12,14 @@ class Animal():
     def speak(self):
         print("No sé como hablar")
 
+
 class Gato(Animal):
     def __init__(self, name, age):
         Animal.__init__(self, name, age) # ejecuta el constructor de la clase madre
 
     def speak(self): # polimorfismo, sobreescribe el método de la clase madre
         print("Miauuu")
+
 
 class Perro(Animal):
     def __init__(self, name, age):

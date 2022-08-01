@@ -20,3 +20,22 @@ for x in range(len(numero)):
     elevado.append(numero[x]**2)
 
 print(elevado)
+
+
+# 
+
+nuevos = []
+for z in numero:
+    nuevos.append(z**2)
+
+print(f'Aca estan los cuadrados: {nuevos}')
+
+
+
+
+# LISTA POR COMPRENSION
+
+lista = [2,3,4]
+
+cuadrado = [i**2 for i in lista]
+print(f'Cuadrados lista pro comprension: {cuadrado}')

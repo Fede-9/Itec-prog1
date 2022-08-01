@@ -7,9 +7,9 @@ lista2 = []
 lista3 = []
 
 for x in range(1,9):
-    preg1 = input("escriba su nombre: ")
+    preg1 = input(f"{x} - Escriba su nombre: ")
     lista1.append(preg1)
-    preg2 = input("escriba su sexo: ")
+    preg2 = input(f"{x} - Escriba su sexo: ")
     lista2.append(preg2)
     if preg2 == 'femenino':
         lista3.append(preg1)

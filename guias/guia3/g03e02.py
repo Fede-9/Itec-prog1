@@ -1,22 +1,23 @@
 #Cargar letras en una lista (while). Contar las vocales (for). Mostrar el total.
 
-preg1 = input("Desea ingresar una letra?: ")
+preg1 = input("Cuantas letras desea ingresar? ")
 lista = []
-vocal = 0
+total = 0
 vocales = []
+aux = 0
 
-while preg1 == 'si':
+while aux < int(preg1):
     letra = input("ingrese una letra: ")
     lista.append(letra)
-    preg1 = input("Desea ingresar otra letra?: ")
+    aux += 1
     
 for x in lista:
     if x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u':
-        vocal += 1
+        total += 1
         vocales.append(x)
 
 
-print("cantidad de vocales: ",vocal)
+print("cantidad de vocales: ",total)
 print('las vocales son: ',vocales)
 
 # lista por comprension

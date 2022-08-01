@@ -29,6 +29,9 @@ if u > a and u > e and u > i and u > o:
 
 print('-------------------------------------------------------------')
 
+
+
+
 #OTRA FORMA DE HACERLO
 
 frase = 'hola como andas pibe'
@@ -38,6 +41,9 @@ print(lista)
 for i in range(len(lista)):
     if lista[i] == max(lista):
         print(vocales[i])
+
+
+
 
 #OTRA FORMA DE HACERLO
 

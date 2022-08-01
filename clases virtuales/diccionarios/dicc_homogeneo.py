@@ -9,6 +9,7 @@ capitales = {
     'England': 'Essex'
 }
 
+
 print(capitales['France'])
 #print(capitales[0]) # error, no existe la clave 0
 capitales['Brazil'] = 'Brasilia' # agrega

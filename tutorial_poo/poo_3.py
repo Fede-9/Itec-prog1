@@ -1,6 +1,7 @@
 # METODOS
 
 class Matematica():
+    
     def suma(self):
         self.n1 = 5
         self.n2 = 2
