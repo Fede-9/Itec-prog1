@@ -4,12 +4,10 @@ class Puerta():
         self.ubicacion = ubicacion
 
     def abrirPuerta(self):
-        print("Abierta la puerta", self.puerta, self.ubicacion)
+        print(f'Abriendo la puerta {self.puerta} {self.ubicacion}')
 
     def cerrarPuerta(self):
-        print("Cerrada la puerta", self.puerta, self.ubicacion)
-
-
+        print(f'Cerrando la puerta {self.puerta} {self.ubicacion}')
 
 
 class Auto():
@@ -51,12 +49,12 @@ auto1.abrirPuerta()
 # OTRA FORMAAA
 
 class Puerta():
-        def __init__(self,puerta,ubicacion):
+        def __init__(self, puerta, ubicacion):
             self.puerta = puerta
             self.ubicacion = ubicacion
     
         def abrirPuerta(self):
-            print(f'Abrienda puerta: {self.puerta} {self.ubicacion}')
+            print(f'Abriendo puerta: {self.puerta} {self.ubicacion}')
 
         def  cerrarPuerta(self):
             print(f'Cerrando puerta: {self.puerta} {self.ubicacion}')
@@ -78,6 +76,10 @@ class Caniche():
     def hablar(self):
         print('soy un caniche')
 
+class Pastor():
+    def hablar(self):
+        print('Soy un pastor aleman')
+
 
 def hablando(objeto):
     objeto.hablar()
@@ -86,10 +88,12 @@ def hablando(objeto):
 
 perro1 = Dogo()
 perro2 = Caniche()
+perro3 = Pastor()
 
 
 hablando(perro1)
 hablando(perro2)
+hablando(perro3)
 
 
 # perro1.hablar()
