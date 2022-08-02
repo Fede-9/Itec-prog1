@@ -30,3 +30,4 @@ foca.hablar("Soy una foca, este es mi mensaje") #Llamamos al método
 # (en ese caso pulpito, pertenece a la clase “pulpo” por ende obviamente llamará al método 
 # hablar de dicha clase y no de ninguna otra.).
 
+

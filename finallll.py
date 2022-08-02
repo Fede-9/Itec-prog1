@@ -18,6 +18,7 @@ class Auto():
         self.p2 = Puerta("delantera", "izquierda")
         self.p3 = Puerta("trasera", "derecha")
         self.p4 = Puerta("trasera", "izquierda")
+      
 
 
 auto1 = Auto()
@@ -28,7 +29,7 @@ auto1.p3.cerrarPuerta()
 # OTRA FORMA PARA HACERLO
 
 class Puerta():
-    def __init__(self,puerta,ubicacion):
+    def __init__(self, puerta, ubicacion):
         self.puerta = puerta
         self.ubicacion = ubicacion
 
@@ -93,3 +94,28 @@ hablando(perro2)
 
 # perro1.hablar()
 # perro2.hablar()
+
+
+
+#Polomorfismo 
+
+class Perro(): #Clase Padre
+    def hablar(self): #Método Hablar
+        print ("Soy el perro padre...")
+
+class Caniche(Perro): #Clase Hija
+    def hablar (self): #Método Hablar
+        print ("Soy un caniche ...")
+        
+
+class Dogo(Perro): #Clase Hija
+    def hablar (self, mensaje): #Método Hablar
+        print (mensaje)
+
+perro = Perro() #instancia
+caniche = Caniche() #Instancia
+dogo = Dogo() #Instancia
+
+perro.hablar()#llamamos al metodo
+caniche.hablar() #Llamamos al método
+dogo.hablar("Soy una dogo, este es mi mensaje") #Llamamos al método
