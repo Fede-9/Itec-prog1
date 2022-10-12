@@ -13,6 +13,13 @@ class Listado():
         for e in self.lista:
             print(e)
 
+# OTRA FORMA DE MOSTRAR LOS NOMBRES
+    # def getData(self):
+    #     nombres = []
+    #     for e in self.lista:
+    #         nombres.append(e)
+    #     print(nombres)
+
 if __name__ == "__main__":
     #cant = int(input("Ingrese un valor númerico: "))
     n = Listado(2)

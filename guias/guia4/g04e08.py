@@ -6,12 +6,16 @@
 
 cadena = "Quiero comer manzanas, solamente manzanas."
 cadena1 = ''
+cont = 0
+
 for i in range(len(cadena)):
     if cadena[i] != ' ' and cadena[i] != ',' and cadena[i] != '.':
         cadena1 += cadena[i]
+        cont += 1
 
 print(cadena1)
 print('la cantidad de letras es: ', len(cadena1))
+# print(cont)
 
 
 cont = 0

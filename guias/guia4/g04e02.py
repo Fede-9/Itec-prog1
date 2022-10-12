@@ -16,6 +16,7 @@ print(texto1)
 
 cadena1 = 'Curso de Python'
 lista = cadena1.split()
+# print(lista)
 lista.insert(2,'Programacion')
 lista.insert(3,'en')
 #print(lista)

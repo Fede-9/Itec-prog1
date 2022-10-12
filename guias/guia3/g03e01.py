@@ -7,8 +7,9 @@ for x in range (10):
     if n > 23:
         acum += 1
         num.append(n)
-print("los numeros mayores de 23 son en total: ",acum)
-print("los numeros son: ", num)
+
+print(f'La cantidad de numeros mayores a 23 son: {acum}')
+print(f'Los numeros son: {num}')
 
 
 # lista por comprension

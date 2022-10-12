@@ -5,7 +5,7 @@ class Curso():
 #     profesion = 'Ingenieria civil'
 
 #estado inicial del objeto
-    def __init__(self,nombre,creditos,profesion):
+    def __init__(self, nombre, creditos, profesion):
         self.nombre = nombre
         self.creditos = creditos
         self.profesion = profesion

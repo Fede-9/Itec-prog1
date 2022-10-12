@@ -20,6 +20,7 @@ listaAutos.append(a1)
 listaAutos.append(a2)
 listaAutos.append(a3)
 
+
 for auto in listaAutos:
     if auto.obtenerAntig() >= 5:
         print(auto.marca)

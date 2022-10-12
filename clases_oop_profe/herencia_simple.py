@@ -5,7 +5,7 @@ class Estudiante():  #Creamos la clase padre
         self.nombre = nombre #Declaramos que el atributo nombre es igual al argumento nombre
 
     def hablar(self):
-        print('holaaaaaaaaaaaaaaaaaaa')
+        print('soy el estudiante')
 
 
 class Derecho (Estudiante): #Entre paréntesis indicamos la clase padre o principal ESTUDIANTE
@@ -14,6 +14,6 @@ class Derecho (Estudiante): #Entre paréntesis indicamos la clase padre o princi
        print (f"Soy {self.nombre} tengo {self.edad} años y estudio Derecho") #Se presenta llamando los atributos
 
 
-alumno = Derecho(26, 'Manuel Contreras') #Indicamos argumentos edad y nombre
+alumno = Derecho(26, 'Federico Cometto') #Indicamos argumentos edad y nombre
 alumno.presentarse() # Llamamos al método y Manuel se presenta
 alumno.hablar()

@@ -4,7 +4,7 @@
 
 class Marino(): #Clase Padre
     def hablar(self): #Método Hablar
-        print ("Hola..")
+        print ("Hola soy marino ...")
 
 class Pulpo(Marino): #Clase Hija
     def hablar (self): #Método Hablar

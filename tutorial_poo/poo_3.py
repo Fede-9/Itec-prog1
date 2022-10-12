@@ -10,3 +10,15 @@ class Matematica():
 
 s = Matematica()
 print(f'La suma es: {s.suma()}')
+
+
+# otra forma
+class Mat():
+    def sumar(self, n1, n2):
+        return n1 + n2
+
+sumando = Mat()
+print(sumando.sumar(2,2))
+
+
+

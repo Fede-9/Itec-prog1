@@ -2,7 +2,7 @@
 
 
 class Cuenta():
-    def __init__(self,pro,sal,mon):
+    def __init__(self, pro, sal, mon):
         self.__propietario = pro
         self.__saldo = sal
         self.__moneda = mon
@@ -21,7 +21,7 @@ class Cuenta():
 
     # Setters (metodos SET) -----> nos permiten modificar un valor
 
-    def setMoneda(self,moneda):  # nos permite modificar el valor de moneda
+    def setMoneda(self, moneda):  # nos permite modificar el valor de moneda
         self.__moneda = moneda
 
 

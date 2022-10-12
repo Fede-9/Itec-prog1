@@ -5,12 +5,13 @@
 
 #1. Cuántas veces se repite una letra cualquiera pedida. Parámetros: letra, cadena.
 
-def contarLetra(letra,cadena):
+def contarLetra(letra, cadena):
     c = 0
     for e in cadena:
         if e == letra:
             c += 1
     return c
+
 
 cad = "Quiero comer manzanas, solamente manzanas."
 let = input("Ingrese una letra para saber cuantas veces se repite: ")

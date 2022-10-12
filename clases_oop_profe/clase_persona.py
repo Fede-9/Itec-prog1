@@ -11,6 +11,7 @@ class Persona():
     def obtenerNombre(self):
         return self.nombre
 
+
     def obtenerEdad(self):
         return self.edad
 

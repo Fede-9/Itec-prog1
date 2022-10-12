@@ -7,7 +7,7 @@ for i in range(len(cadena)):
     if cadena[i] == "i":
         cont += 1
 
-print("La cantidad de letras 'i' es de: ",cont) 
+print(f'Cantidad de letras i: {cont}') 
 
 
 acum = 0
