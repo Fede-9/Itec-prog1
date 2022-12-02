@@ -1,7 +1,6 @@
 # METODO SUPER EN HERENCIA SIMPLE
 
-# Esta función nos permite invocar y conservar un método o atributo de una clase padre (primaria) desde una clase hija (secundaria) sin 
-# tener que nombrarla explícitamente. Esto nos brinda la ventaja de poder cambiar el nombre de la 
+# Esta función nos permite invocar y conservar un método o atributo de una clase padre (primaria) desde una clase hija (secundaria) sin tener que nombrarla explícitamente. Esto nos brinda la ventaja de poder cambiar el nombre de la 
 # clase padre (base) o hija (secundaria) cuando queramos y aún así mantener un código funcional, sencillo  y mantenible.
 
 class Padre(): #Creamos la clase Padre
@@ -15,7 +14,7 @@ class Hijo(Padre): #Creamos clase hija que hereda de Padre
         self.cara = cara #Especificamos el nuevo atributo para Hijo
         
 Tomas = Hijo('Marrones', 'Negras', 'Larga')
-print (Tomas.ojos, Tomas.cejas, Tomas.cara)
+print(Tomas.ojos, Tomas.cejas, Tomas.cara)
 
 
 # O podemos hacerlo, utilizando super(). De esta forma es casi el mismo código pero no necesitamos especificar la clase padre, por lo 

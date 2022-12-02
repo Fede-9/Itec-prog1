@@ -13,7 +13,7 @@ class Persona():
 
 
     def obtenerEdad(self):
-        return self.edad
+        return self.edad > 12
 
    
 
@@ -27,3 +27,4 @@ print(persona1.obtenerDatos())
 print(persona2.nombre) # Se accede a los atributos de la clase violando el encapsulamiento
 
 print(f'Nombre de la persona: {persona1.obtenerNombre()}')
+print(persona1.obtenerEdad())

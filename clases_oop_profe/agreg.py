@@ -26,5 +26,6 @@ class Empresa():
 
 empresa = Empresa()
 
+
 for i in empresa.listarEmpleados():
     print(i.getNombre())

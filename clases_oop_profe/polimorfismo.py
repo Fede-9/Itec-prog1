@@ -4,11 +4,11 @@
 
 class Marino(): #Clase Padre
     def hablar(self): #Método Hablar
-        print ("Hola soy marino ...")
+        print("Hola soy marino ...")
 
 class Pulpo(Marino): #Clase Hija
-    def hablar (self): #Método Hablar
-        print ("Soy un Pulpo")
+    def hablar(self): #Método Hablar
+        print("Soy un Pulpo")
         
 
 class Foca(Marino): #Clase Hija
@@ -16,11 +16,12 @@ class Foca(Marino): #Clase Hija
         print (mensaje)
 
 marino = Marino() #instancia
-Pulpito = Pulpo() #Instancia
+pulpo = Pulpo() #Instancia
 foca = Foca() #Instancia
 
+
 marino.hablar()#llamamos al metodo
-Pulpito.hablar() #Llamamos al método
+pulpo.hablar() #Llamamos al método
 foca.hablar("Soy una foca, este es mi mensaje") #Llamamos al método
 
 

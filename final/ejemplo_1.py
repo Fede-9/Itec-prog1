@@ -24,7 +24,9 @@ auto1.p1.abrirPuerta()
 auto1.p3.cerrarPuerta()
 
 
+
 # OTRA FORMA PARA HACERLO
+
 
 class Puerta():
     def __init__(self, puerta, ubicacion):
@@ -108,14 +110,15 @@ class Perro(): #Clase Padre
         print ("Soy el perro padre...")
 
 class Caniche(Perro): #Clase Hija
-    def hablar (self): #Método Hablar
-        print ("Soy un caniche ...")
+    def hablar(self): #Método Hablar
+        print("Soy un caniche ...")
         
 
 class Dogo(Perro): #Clase Hija
-    def hablar (self, mensaje): #Método Hablar
-        print (mensaje)
+    def hablar(self, mensaje): #Método Hablar
+        print(mensaje)
 
+        
 perro = Perro() #instancia
 caniche = Caniche() #Instancia
 dogo = Dogo() #Instancia
